@@ -2,7 +2,9 @@
 tp1-admin-systeme-RemiQuemin created by GitHub Classroom
 
 
+
 ### Manuel
+
 
 #### 1. A l’aide du manuel, identifiez le rôle de la commande which 
 Which renvoie le chemin des fichiers qui sont executables. 
@@ -19,7 +21,9 @@ Pour quitter le manuel, il suffit d'appuyer sur la touche "q"
 Pour afficher la premiere page de la section 6, j'ai fais "man 6 intro", 
 cette section affiche tout ce qui est en rapport avec les jeux, gadgets, economiseur d'ecran
 
+
 ### Navigation dans l’arborescence des fichiers
+
 
 #### 1. allez dans le dossier /var/log 
 Pour aller dans /var/log, je fais cd /var/log
