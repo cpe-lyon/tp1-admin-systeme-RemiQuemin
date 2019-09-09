@@ -1,7 +1,7 @@
 # tp1-admin-systeme-RemiQuemin
 tp1-admin-systeme-RemiQuemin created by GitHub Classroom
 
-## 1. A l’aide du manuel, identifiez le rôle de la commande which 
+#### 1. A l’aide du manuel, identifiez le rôle de la commande which 
 
 1 / Which renvoie le chemin des fichiers qui sont executables. 
 Par exemple quand on fait "which ls" il va donner le chemin ou le fichier est executable.
