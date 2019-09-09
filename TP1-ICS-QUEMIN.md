@@ -13,4 +13,19 @@ il surligne les mots options présents.
 4/ pour afficher la premiere page de la section 6, j'ai fais "man 6 intro", 
 cette section affiche tout ce qui est en rapport avec les jeux, gadgets, economiseur d'ecran
 
-5/ 
+
+
+1) pour aller dans /var/log, je fais cd /var/log
+
+2) pour retourner dans le dossier parent (donc /var) il suffit de taper "cd .." ainsi nous sommes passés du dossier /log au dossier /var.
+
+3) pour retourner dans le dossier personnel il suffit de rentrer "cd" pour retourner au dossier personnel.
+
+4) pour retourner dans le dossier precedent il suffit de faire cd -
+
+5) quand on essaye d'acceder au dossier root, l'accès est refusé.
+
+6) On ne peut pas utliser a la fois la commande sudo et la commande cd
+
+7) Maintenant je dois créer une arborescence en créant des fichiers ainsi que des dossiers : Pour cela : mkdir pour créer un dossier sui vi du nom du dossier. Exemple : mkdir Dossier2
+Pour créer un fichier : touch fichier1
