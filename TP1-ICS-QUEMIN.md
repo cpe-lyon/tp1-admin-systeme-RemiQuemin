@@ -29,7 +29,6 @@ cette section affiche tout ce qui est en rapport avec les jeux, gadgets, economi
 <br/>
 ## Navigation dans l’arborescence des fichiers
 <br/>
-<br/>
 
 #### 1. Allez dans le dossier /var/log 
 Pour aller dans /var/log, je fais `cd /var/log`.
@@ -51,10 +50,9 @@ On ne peut pas utliser a la fois la commande sudo et la commande cd.
 <br/>
 #### 7. A partir de votre dossier personnel, créez l’arborescence suivante :
 Maintenant je dois créer une arborescence en créant des fichiers ainsi que des dossiers : Pour cela : `mkdir` pour créer un dossier suivi du nom du dossier. Exemple : `mkdir Dossier1 Dossier 2`
-Pour créer un fichier : `touch fichier1 fichier 2`
+Pour créer un fichier : `touch fichier1 fichier 2`.
 <br/>
 #### 8. Revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis Dossier1 ; que se passe-t-il ?
-<br/>
 Pour revenir au dossier personnel il suffit de faire: `cd`
 Pour supprimer le Fichier1 : `rm Dossier1/Fichier1`
 la commande `rm Dossier1` renvoie une erreur :
@@ -62,11 +60,9 @@ _cannot remove Dossier1: Is a directory_
 Il faut modifier la commande `rm` afin de supprimer un dossier.
 <br/>
 #### 9. Quelle commande permet de supprimer un dossier ?
-<br/>
 La commande qui permet de supprimer un dossier est : `rmdir`
 <br/>
 #### 10. Que se passe-t-il quand on applique cette commande à Dossier2 ?
-<br/>
 Quand on essaye de supprimer le Dossier2 : `rmdir Dossier2` , rmdir: failed to remove 'Dossier2': Directory not empty
 Il ne peut pas supprimer le dossier le dossier n'est pas vide, en effet il y a plusieurs fichiers.
 <br/>
@@ -76,7 +72,6 @@ Pour supprimer le Dossier2 et son contenu il suffit de faire : `rm -r Dossier2`
 <br/>
 
 ## Commandes importantes
-<br/>
 <br/>
 
 #### 1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?
@@ -104,7 +99,8 @@ La commande `ls ..` permet de lister le dossier père dans l'arborescence.
 <br/>
 #### 7. Quelle commande donne le chemin complet du dossier courant ?
 La commande qui permet de donner le chemin complet du dossier courant est : `pwd`. Dans mon cas elle m'affiche :  <br/>
-> home/serveur
+>home/serveur
+>
 
 #### 8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?
 Cette commande permet de créer un fichier plop avec écrit:
