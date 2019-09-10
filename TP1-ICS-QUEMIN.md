@@ -101,8 +101,6 @@ La commande `ls ..` permet de lister le dossier père dans l'arborescence.
 #### 7. Quelle commande donne le chemin complet du dossier courant ?
 La commande qui permet de donner le chemin complet du dossier courant est : `pwd`. Dans mon cas elle m'affiche :  <br/>
 > home/serveur <br/>
-> <br/>
-> <br/>
 
 #### 8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?
 Cette commande permet de créer un fichier plop avec écrit:
