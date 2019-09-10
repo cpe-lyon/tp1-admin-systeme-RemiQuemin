@@ -65,6 +65,7 @@ La commande qui permet de supprimer un dossier est : `rmdir`.
 #### 10. Que se passe-t-il quand on applique cette commande à Dossier2 ?
 Quand on essaye de supprimer le Dossier2 : `rmdir Dossier2` , <br/> 
 > rmdir: failed to remove 'Dossier2': Directory not empty <br/>
+
 Il ne peut pas supprimer le dossier le dossier n'est pas vide, en effet il y a plusieurs fichiers.
 <br/>
 
