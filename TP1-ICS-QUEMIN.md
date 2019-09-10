@@ -20,7 +20,7 @@ par exemple le mot "option" pour cela il faut taper "/" et rentrer le mot que l'
 il surligne les mots options présents.
 <br/>
 #### 3. Comment quitte-t-on le manuel? 
-Pour quitter le manuel, il suffit d'appuyer sur la touche "q"
+Pour quitter le manuel, il suffit d'appuyer sur la touche "q".
 <br/>
 #### 4. Chaque section du manuel a une première page, qui présent
 Pour afficher la premiere page de la section 6, j'ai fais `"man 6 intro"`, 
@@ -67,6 +67,7 @@ Quand on essaye de supprimer le Dossier2 : `rmdir Dossier2` , <br/>
 > rmdir: failed to remove 'Dossier2': Directory not empty <br/>
 Il ne peut pas supprimer le dossier le dossier n'est pas vide, en effet il y a plusieurs fichiers.
 <br/>
+
 #### 11. Comment supprimer en une seule commande Dossier2 et son contenu ?
 Pour supprimer le Dossier2 et son contenu il suffit de faire : `rm -r Dossier2`.
 <br/>
@@ -115,7 +116,7 @@ cette commande permet de créer un fichier plop avec écrit:
 #### 10. A quoi sert la commande file ? Essayez la sur des fichiers de types différents.
 La commande file retourne le type de données contenue dans une fichier par exemple dans le fichier1 : <br/>
 > empty. <br/>
-Tandis que le fichier plop : <br/> 
+  Tandis que le fichier plop : <br/> 
 > ASCII text <br/>
 
 #### 11. Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier avec la commande ln toto titi. Modifiez à présent le contenu de toto et affichez le contenu de titi :qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?
