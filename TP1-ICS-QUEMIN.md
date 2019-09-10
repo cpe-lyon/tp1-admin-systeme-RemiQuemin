@@ -70,7 +70,10 @@ Il ne peut pas supprimer le dossier le dossier n'est pas vide, en effet il y a p
 
 Pour supprimer le Dossier2 et son contenu il suffit de faire : rm -r Dossier2
 
+
+
 ### Commandes importantes
+
 
 
 #### 1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?
@@ -81,6 +84,64 @@ Par exemple time ls -l :
 real   0m0, 002s
 user   0m0, 002s 
 sys    0m0, 002s 
+
+#### 2. Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire sur les fichiers commençant par un point ?
+Quand on fait ls rien n'apparait tandis qu'avec la commande la des fichiers commçant par un point apparaissent, ce sont des fichiers cachés
+
+#### 3. Où se situe le programme ls ?
+Grace a la commande which ls on sait que le programme se situe : /usr/bin/ls
+
+#### 4. Que fait la commande ll ? (indice : la commande alias peut vous aider)
+La commande ll affiche des informations des fichiers et/ou des dossiers nous avons par exemple les droits, le poids, la date.
+
+#### 5. Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?
+la commande ls /bin
+#### 6. Que fait la commande ls .. ?
+La commande ls .. permet de lister le dossier père dans l'arborescence.
+
+#### 7. Quelle commande donne le chemin complet du dossier courant ?
+La commande qui permet de donner le chemin complet du dossier courant est : pwd. Dans mon cas elle m'affiche : home/serveur
+
+#### 8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?
+Cette commande permet de créer un fichier plop avec écrit:
+yo
+
+#### 9. Que fait la commande echo 'yo' >> plop exécutée 2 fois ?
+cette commande permet de créer un fichier plop avec écrit:
+yo
+yo
+
+#### 10. A quoi sert la commande file ? Essayez la sur des fichiers de types différents.
+La commande file retourne le type de données contenue dans une fichier par exemple dans le fichier1 : empty.
+Tandis que le fichier plop : ASCII text
+
+#### 11. Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier avec la commande ln toto titi. Modifiez à présent le contenu de toto et affichez le contenu de titi :qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?
+lorque l'on modifie le fichier toto, le fichier titi est modifiée également. Quand on supprime le fichier toto le fichier titi devient un simple fichier unique et garde le contenu de toto.
+
+#### 12. Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle conséquence cela a-t-il sur tutu ?
+Quand on modifie le contenu de titi le contenu de tutu est modifié aussi. Et inversement. Cependant quand on supprime le fichier titi et que l'on souhaite voir le contenu du fichier tutu : No such file or directory. Le fichier est donc corompu, on remarque quand on fait ls, le fichier tutu est rouge.
+
+#### 13. Affichez à l’écran le fichier /var/log/syslog. Quels raccourcis clavier permettent d’interrompre et reprendre le défilement à l’écran ?
+
+#### 14. Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les lignes 10 à 20.
+
+#### 15. Que fait la commande dmesg | less ?
+
+#### 16. Affichez à l’écran le fichier /etc/passwd ; que contient-il ? Quelle commande permet d’afficher la page de manuel de ce fichier ?
+#### 17. Affichez seulement la première colonne triée par ordre alphabétique inverse
+
+#### 18. Quelle commande nous donne le nombre d’utilisateurs ?
+
+#### 19. Combien de pages de manuel comportent le mot-clé conversion dans leur description ?
+
+#### 20. A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine.
+
+#### 21. Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier ~/list_passwd_files.txt et que les erreurs soient redirigées vers le fichier spécial /dev/null.
+
+#### 22. Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vu précédemment.
+#### 23. Utilisez la commande locate pour trouver le fichier history.log.
+
+#### 24. Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il ? Pourquoi ?
 
 
 
