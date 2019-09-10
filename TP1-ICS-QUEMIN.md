@@ -14,97 +14,97 @@
 Which renvoie le chemin des fichiers qui sont executables. 
 Par exemple quand on fait "which ls" il va donner le chemin ou le fichier est executable.
 <br/>
-<br/>
 #### 2. Quand on consulte cette page, comment peut-on rechercher, par exemple, le mot option? 
 Une fois avoir fait man which , nous cherchons un mot, 
 par exemple le mot "option" pour cela il faut taper "/" et rentrer le mot que l'on souhaite ainsi quand on rentre `"/option"`, 
 il surligne les mots options présents.
+<br/>
 #### 3. Comment quitte-t-on le manuel? 
 Pour quitter le manuel, il suffit d'appuyer sur la touche "q"
-
+<br/>
 #### 4. Chaque section du manuel a une première page, qui présent
 Pour afficher la premiere page de la section 6, j'ai fais `"man 6 intro"`, 
 cette section affiche tout ce qui est en rapport avec les jeux, gadgets, economiseur d'ecran.
-
-
+<br/>
+<br/>
 ## Navigation dans l’arborescence des fichiers
-
+<br/>
+<br/>
 
 #### 1. Allez dans le dossier /var/log 
 Pour aller dans /var/log, je fais `cd /var/log`.
-
+<br/>
 #### 2. Remontez dans le dossier parent (/var) en utilisant un chemin relatif 
 Pour retourner dans le dossier parent (donc /var) il suffit de taper `"cd .."` ainsi nous sommes passés du dossier /log au dossier /var.
-
+<br/>
 #### 3. Retournez dans le dossier personnel 
 Pour retourner dans le dossier personnel il suffit de rentrer `"cd"` pour retourner au dossier personnel.
-
+<br/>
 #### 4. Revenez au dossier précédent (/var)
 Pour retourner dans le dossier precedent il suffit de faire `cd -`
-
+<br/>
 #### 5. Essayez d’accéder au dossier /root; que se passe-t-il?
 Quand on essaye d'acceder au dossier root, l'accès est refusé.
-
+<br/>
 #### 6. Essayez la commande sudo cd /root; que se passe-t-il? Expliquez 
 On ne peut pas utliser a la fois la commande sudo et la commande cd.
-
+<br/>
 #### 7. A partir de votre dossier personnel, créez l’arborescence suivante :
 Maintenant je dois créer une arborescence en créant des fichiers ainsi que des dossiers : Pour cela : `mkdir` pour créer un dossier suivi du nom du dossier. Exemple : `mkdir Dossier1 Dossier 2`
 Pour créer un fichier : `touch fichier1 fichier 2`
-
+<br/>
 #### 8. Revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis Dossier1 ; que se passe-t-il ?
-
+<br/>
 Pour revenir au dossier personnel il suffit de faire: `cd`
 Pour supprimer le Fichier1 : `rm Dossier1/Fichier1`
 la commande `rm Dossier1` renvoie une erreur :
 _cannot remove Dossier1: Is a directory_
 Il faut modifier la commande `rm` afin de supprimer un dossier.
-
+<br/>
 #### 9. Quelle commande permet de supprimer un dossier ?
-
+<br/>
 La commande qui permet de supprimer un dossier est : `rmdir`
-
+<br/>
 #### 10. Que se passe-t-il quand on applique cette commande à Dossier2 ?
-
+<br/>
 Quand on essaye de supprimer le Dossier2 : `rmdir Dossier2` , rmdir: failed to remove 'Dossier2': Directory not empty
 Il ne peut pas supprimer le dossier le dossier n'est pas vide, en effet il y a plusieurs fichiers.
-
+<br/>
 #### 11. Comment supprimer en une seule commande Dossier2 et son contenu ?
-
 Pour supprimer le Dossier2 et son contenu il suffit de faire : `rm -r Dossier2`
-
-
+<br/>
+<br/>
 
 ## Commandes importantes
-
-
+<br/>
+<br/>
 
 #### 1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?
-
 la commande qui permet d'afficher l'heure est la commande : `date`
 la commande time sert à determiner le temps d'execution d'une commande choisie.
 Par exemple time ls -l : <br/>
 >real   0m0, 002s <br/>
 >user   0m0, 002s  <br/>
 >sys    0m0, 002s  <br/>
-
+<br/>
 #### 2. Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire sur les fichiers commençant par un point ?
 Quand on fait ls rien n'apparait tandis qu'avec la commande la des fichiers commçant par un point apparaissent, ce sont des fichiers cachés
-
+<br/>
 #### 3. Où se situe le programme ls ?
 Grace a la commande which ls on sait que le programme se situe : `/usr/bin/ls`
-
+<br/>
 #### 4. Que fait la commande ll ? (indice : la commande alias peut vous aider)
 La commande ll affiche des informations des fichiers et/ou des dossiers nous avons par exemple les droits, le poids, la date.
-
+<br/>
 #### 5. Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?
 la commande `ls /bin`
-
+<br/>
 #### 6. Que fait la commande ls .. ?
 La commande `ls ..` permet de lister le dossier père dans l'arborescence.
-
+<br/>
 #### 7. Quelle commande donne le chemin complet du dossier courant ?
-La commande qui permet de donner le chemin complet du dossier courant est : `pwd`. Dans mon cas elle m'affiche : <br/>  > home/serveur
+La commande qui permet de donner le chemin complet du dossier courant est : `pwd`. Dans mon cas elle m'affiche :  <br/>
+> home/serveur
 
 #### 8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?
 Cette commande permet de créer un fichier plop avec écrit:
