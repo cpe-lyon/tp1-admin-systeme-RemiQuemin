@@ -116,7 +116,9 @@ cette commande permet de créer un fichier plop avec écrit:
 #### 10. A quoi sert la commande file ? Essayez la sur des fichiers de types différents.
 La commande file retourne le type de données contenue dans une fichier par exemple dans le fichier1 : <br/>
 > empty. <br/>
-  Tandis que le fichier plop : <br/> 
+
+</ Tandis que le fichier plop : <br/> 
+  
 > ASCII text <br/>
 
 #### 11. Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier avec la commande ln toto titi. Modifiez à présent le contenu de toto et affichez le contenu de titi :qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?
