@@ -104,53 +104,53 @@ La commande qui permet de donner le chemin complet du dossier courant est : `pwd
 
 #### 8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?
 Cette commande permet de créer un fichier plop avec écrit:
-yo
+> yo <br/>
 
 #### 9. Que fait la commande echo 'yo' >> plop exécutée 2 fois ?
 cette commande permet de créer un fichier plop avec écrit:
-yo
-yo
+> yo <br/>
+> yo <br/>
 
 #### 10. A quoi sert la commande file ? Essayez la sur des fichiers de types différents.
 La commande file retourne le type de données contenue dans une fichier par exemple dans le fichier1 : empty.
 Tandis que le fichier plop : ASCII text
 
 #### 11. Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier avec la commande ln toto titi. Modifiez à présent le contenu de toto et affichez le contenu de titi :qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?
-lorque l'on modifie le fichier toto, le fichier titi est modifiée également. Quand on supprime le fichier toto le fichier titi devient un simple fichier unique et garde le contenu de toto.
+Lorque l'on modifie le fichier toto, le fichier titi est modifiée également. Quand on supprime le fichier toto le fichier titi devient un simple fichier unique et garde le contenu de toto.
 
 #### 12. Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle conséquence cela a-t-il sur tutu ?
-Quand on modifie le contenu de titi le contenu de tutu est modifié aussi. Et inversement. Cependant quand on supprime le fichier titi et que l'on souhaite voir le contenu du fichier tutu : No such file or directory. Le fichier est donc corompu, on remarque quand on fait ls, le fichier tutu est rouge.
+Quand on modifie le contenu de titi le contenu de tutu est modifié aussi. Et inversement. Cependant quand on supprime le fichier titi et que l'on souhaite voir le contenu du fichier tutu : `No such file or directory`. Le fichier est donc corompu, on remarque quand on fait ls, le fichier tutu est rouge.
 
 #### 13. Affichez à l’écran le fichier /var/log/syslog. Quels raccourcis clavier permettent d’interrompre et reprendre le défilement à l’écran ?
-En faisant cat /var/log/syslog nous affichons le fichier. Pour arreter le defilement et pouvoir voir les lignes une par une il est possible grace à la commande : cat /var/log/syslog | less
+En faisant `cat /var/log/syslog` nous affichons le fichier. Pour arreter le defilement et pouvoir voir les lignes une par une il est possible grace à la commande : `cat /var/log/syslog | less`
 
 #### 14. Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les lignes 10 à 20.
-La commande head -5 /var/log/syslog permet de voir les 5 première lignes du fichier la commande tail -15 /var/log/syslog permet de voir les 15 dernières lignes et la commande head -n 10 20 /var/log/syslog permet de voir entre les lignes 10 et 20.
+La commande `head -5 /var/log/syslog` permet de voir les 5 première lignes du fichier la commande `tail -15 /var/log/syslog` permet de voir les 15 dernières lignes et la commande `head -n 10 20 /var/log/syslog` permet de voir entre les lignes 10 et 20.
 
 #### 15. Que fait la commande dmesg | less ?
 La commande dmesg  permet de voir l'historique des messages du noyaux. la commande lee permet comme dit precedemment d'interrompre le defilement afin de pouvoir naviguer librement dnas le fichier.
 
 #### 16. Affichez à l’écran le fichier /etc/passwd ; que contient-il ? Quelle commande permet d’afficher la page de manuel de ce fichier ?
-Pour afficher le fichier : cat /etc/passwd/, il contient différentes informations sur les utilisateurs systèmes.
-La commande qui permet d'afficher la page de manuel est : man 5 passwd
+Pour afficher le fichier : `cat /etc/passwd/`, il contient différentes informations sur les utilisateurs systèmes.
+La commande qui permet d'afficher la page de manuel est : `man 5 passwd`
 
 #### 17. Affichez seulement la première colonne triée par ordre alphabétique inverse
 
 #### 18. Quelle commande nous donne le nombre d’utilisateurs ?
-La commande qui nous donne le nombre d'utilisateur est : who 
+La commande qui nous donne le nombre d'utilisateur est : `who`
 
 #### 19. Combien de pages de manuel comportent le mot-clé conversion dans leur description ?
-Avec la commande man -k conversion , je constate qu'il y a 4 pages.
+Avec la commande `man -k conversion` , je constate qu'il y a 4 pages.
 
 #### 20. A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine.
-La commande find : find / -name 'passwd'
+La commande find : `find / -name 'passwd'`
 
 #### 21. Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier ~/list_passwd_files.txt et que les erreurs soient redirigées vers le fichier spécial /dev/null.
 
 #### 22. Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vu précédemment.
 
 #### 23. Utilisez la commande locate pour trouver le fichier history.log.
-locate history.log il se situe donc dans /var/log/apt
+En rentrant la commande `locate history.log`, on constate que le fichier situe dans /var/log/apt
 
 #### 24. Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il ? Pourquoi ?
 La commande locate utilise une base de données. Ce fichier vient d'etre crée il y a peu de temps, il faudra attendre 24h pour que la base se mette a jour pour que l'on puisse locate notre fichier.
