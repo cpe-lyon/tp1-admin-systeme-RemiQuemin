@@ -1,5 +1,4 @@
-# tp1-admin-systeme-RemiQuemin
-tp1-admin-systeme-RemiQuemin created by GitHub Classroom
+# TP1 Admin Systeme Remi Quemin
 
 <br>
 <br>
@@ -92,18 +91,19 @@ Par exemple time ls -l : <br/>
 Quand on fait ls rien n'apparait tandis qu'avec la commande la des fichiers commçant par un point apparaissent, ce sont des fichiers cachés
 
 #### 3. Où se situe le programme ls ?
-Grace a la commande which ls on sait que le programme se situe : /usr/bin/ls
+Grace a la commande which ls on sait que le programme se situe : `/usr/bin/ls`
 
 #### 4. Que fait la commande ll ? (indice : la commande alias peut vous aider)
 La commande ll affiche des informations des fichiers et/ou des dossiers nous avons par exemple les droits, le poids, la date.
 
 #### 5. Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?
-la commande ls /bin
+la commande `ls /bin`
+
 #### 6. Que fait la commande ls .. ?
-La commande ls .. permet de lister le dossier père dans l'arborescence.
+La commande `ls ..` permet de lister le dossier père dans l'arborescence.
 
 #### 7. Quelle commande donne le chemin complet du dossier courant ?
-La commande qui permet de donner le chemin complet du dossier courant est : pwd. Dans mon cas elle m'affiche : home/serveur
+La commande qui permet de donner le chemin complet du dossier courant est : `pwd`. Dans mon cas elle m'affiche : <br/>  > home/serveur
 
 #### 8. Que fait la commande echo 'yo' > plop exécutée 2 fois ?
 Cette commande permet de créer un fichier plop avec écrit:
