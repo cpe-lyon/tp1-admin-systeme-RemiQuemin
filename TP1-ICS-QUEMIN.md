@@ -117,7 +117,7 @@ cette commande permet de créer un fichier plop avec écrit:
 La commande file retourne le type de données contenue dans une fichier par exemple dans le fichier1 : <br/>
 > empty. <br/>
 
-</ Tandis que le fichier plop : <br/> 
+Tandis que le fichier plop : <br/> 
   
 > ASCII text <br/>
 
