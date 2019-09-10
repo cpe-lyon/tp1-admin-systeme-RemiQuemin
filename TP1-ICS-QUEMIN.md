@@ -1,12 +1,14 @@
 # tp1-admin-systeme-RemiQuemin
 tp1-admin-systeme-RemiQuemin created by GitHub Classroom
 
-
+<br>
+<br>
 
 
 ## Manuel
 
-
+<br>
+<br>
 
 
 #### 1. A l’aide du manuel, identifiez le rôle de la commande which
@@ -81,10 +83,10 @@ Pour supprimer le Dossier2 et son contenu il suffit de faire : `rm -r Dossier2`
 
 la commande qui permet d'afficher l'heure est la commande : `date`
 la commande time sert à determiner le temps d'execution d'une commande choisie.
->Par exemple time ls -l : 
->real   0m0, 002s
->user   0m0, 002s 
->sys    0m0, 002s 
+Par exemple time ls -l : <br/>
+>real   0m0, 002s <br/>
+>user   0m0, 002s  <br/>
+>sys    0m0, 002s  <br/>
 
 #### 2. Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire sur les fichiers commençant par un point ?
 Quand on fait ls rien n'apparait tandis qu'avec la commande la des fichiers commçant par un point apparaissent, ce sont des fichiers cachés
